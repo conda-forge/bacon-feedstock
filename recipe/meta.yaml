@@ -1,5 +1,5 @@
 {% set name = "bacon" %}
-{% set version = "2.20.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Canop/bacon/archive/v{{ version }}.tar.gz
-  sha256: a7913eeab25f47aff651b7e09c46669e6d4b4a56af07ab6cac686fe867c72ddc
+  sha256: ff2460da9f527f48c899fbf40fb7e2645dc3eb28e04677490d7fbab2bdaf8fea
 
 build:
   number: 0
