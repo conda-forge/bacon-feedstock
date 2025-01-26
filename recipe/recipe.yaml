@@ -19,6 +19,10 @@ requirements:
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
     - pkg-config
+  host:
+    - if: linux
+      then:
+        - alsa-lib
 
 tests:
   - script:
