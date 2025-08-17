@@ -1,5 +1,5 @@
 context:
-  version: "3.16.0"
+  version: "3.17.0"
 
 package:
   name: bacon
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Canop/bacon/archive/v${{ version }}.tar.gz
-  sha256: cf7f3471883260f7cd56d1b2bcce713463082e64a830bb46489d7e94303b3ba0
+  sha256: 9245a68cf1aa29ba33e9ebc1980bbf41a932f2a2d69de8d9d72ae9719ab4d04d
 
 build:
   number: 0
